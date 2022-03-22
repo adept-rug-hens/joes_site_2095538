@@ -10,6 +10,7 @@ export interface StreamOutput {
   address: AddressData;
   name: string;
   id: string;
+  locale: string;
   _site: {
     c_siteTitle: string;
     c_siteDescription: string;
