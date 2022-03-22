@@ -14,7 +14,7 @@
           }
         ],
         "event": "ON_PAGE_GENERATE",
-        "functionName": "Generate"
+        "functionName": "RenderPage"
       }
     ],
     "features": "sites-config/features.json"

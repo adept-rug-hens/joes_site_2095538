@@ -4,7 +4,7 @@ import { Data, Result } from "./data.ts";
 import { GetPath } from "./path.ts";
 
 
-export async function ReactPlugin(doc: Data) {
+export async function RenderPage(doc: Data) {
   const reactString = ReactDOMServer.renderToString(AppWrap(doc.streamOutput));
   const template = `
 <!DOCTYPE html>
