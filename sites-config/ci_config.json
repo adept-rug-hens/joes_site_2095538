@@ -1,0 +1,32 @@
+{
+  "artifactStructure": {
+    "assets": [
+      {
+        "root": "assets/"
+      }
+    ],
+    "plugins": [
+      {
+        "pluginName": "pageRenderer",
+        "sourceFiles": [
+          {
+            "root": "src"
+          },
+        ],
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "Generate"
+      }
+    ],
+    "features": "sites-config/features.json"
+  },
+  "dependencies": {
+    "installDepsCmd": ":",
+    "requiredFiles": []
+  },
+  "buildArtifacts": {
+    "buildCmd": "./commands/build.sh"
+  },
+  "livePreview": {
+    "serveSetupCmd": ":"
+  }
+}

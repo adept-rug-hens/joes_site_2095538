@@ -1,0 +1,32 @@
+{
+    "locales": ["en", "sv"],
+    "features": [
+        {
+            "name": "Locations",
+            "streamId": "joes-site-locations",
+            "templateType": "JS",
+            "entityPageSet": {
+                "plugin": {}
+            }
+        }
+    ],
+    "streams": [
+        {
+            "$id": "joes-site-locations",
+            "source": "knowledgeGraph",
+            "destination": "pages",
+            "fields": [
+                "id",
+                "uid",
+                "meta",
+                "name",
+                "address"
+            ],
+            "filter": {
+                "entityTypes": [
+                   "location"
+                ]
+            }
+        }
+    ]
+}
