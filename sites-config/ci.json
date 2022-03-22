@@ -24,7 +24,7 @@
     "requiredFiles": []
   },
   "buildArtifacts": {
-    "buildCmd": "./commands/build.sh"
+    "buildCmd": "./build/build.sh"
   },
   "livePreview": {
     "serveSetupCmd": ":"
