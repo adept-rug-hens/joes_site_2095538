@@ -16,7 +16,8 @@
         "event": "ON_PAGE_GENERATE",
         "functionName": "RenderPage"
       }
-    ]
+    ],
+    "features": "sites-config/bad.json"
   },
   "dependencies": {
     "installDepsCmd": ":",
