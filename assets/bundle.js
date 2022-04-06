@@ -1,3 +1,7 @@
+// deno-fmt-ignore-file
+// deno-lint-ignore-file
+// This code was bundled using `deno bundle` and it's not recommended to edit it manually
+
 var exports = {};
 var getOwnPropertySymbols = Object.getOwnPropertySymbols;
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -24462,16 +24466,19 @@ class App extends exports1.Component {
         const nameStyle = {
             padding: "10px"
         };
-        const { id , name , address  } = this.props.doc || {};
+        const { id , name , address , _site  } = this.props.doc || {};
         return exports1.createElement("div", {
             className: "app"
         }, exports1.createElement("div", {
             style: titleStyle,
             className: "title"
-        }, "React Plugin Page"), exports1.createElement("button", {
+        }, _site.c_siteTitle), exports1.createElement("button", {
             className: "click",
             onClick: this.increaseCount
         }, "Click to demo hydration: ", this.state.count), exports1.createElement("div", {
+            style: nameStyle,
+            className: "name"
+        }, "Site Description: ", _site.c_siteDescription), exports1.createElement("div", {
             style: nameStyle,
             className: "name"
         }, "Business Name: ", name), exports1.createElement("div", {

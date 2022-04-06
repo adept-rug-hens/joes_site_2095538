@@ -1,12 +1,34 @@
-import { ReactDOMServer, ReactDOM, React } from "./deps.ts";
-import { App, AppWrap } from "./reactApp.tsx";
+import { ReactDOMServer } from "./deps.ts";
+import { AppWrap } from "./reactApp.tsx";
+import { StaticWrap } from "./staticApp.tsx";
 import { Data, Result } from "./data.ts";
-import { GetPath } from "./path.ts";
+import { GetAboutPath, GetLocationsPath } from "./path.ts";
 
 
 export async function RenderPage(doc: Data) {
-  const reactString = ReactDOMServer.renderToString(AppWrap(doc.streamOutput));
-  const template = `
+  let reactString;
+  let path;
+  let template;
+  console.log(doc);
+  if (doc.feature === "About") {
+    reactString = ReactDOMServer.renderToString(StaticWrap(doc.streamOutput));
+    path = GetAboutPath(doc.streamOutput);
+    template = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Page Usings Plugin</title>
+</head>
+<body>
+    <div id="root">${reactString}</div>
+</body>
+</html>` 
+  } else {
+    reactString = ReactDOMServer.renderToString(AppWrap(doc.streamOutput));
+    path = GetLocationsPath(doc.streamOutput);
+    template = `
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,9 +42,7 @@ export async function RenderPage(doc: Data) {
     <script src="/bundle.js" defer></script>
 </body>
 </html>` 
-
-  console.log(template); 
-  const path = GetPath(doc.streamOutput);
+  }
   const result: Result = { content: template, path: path, redirects: [] };
   return result;
 }
