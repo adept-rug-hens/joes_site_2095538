@@ -19,11 +19,11 @@
     ]
   },
   "dependencies": {
-    "installDepsCmd": "",
+    "installDepsCmd": ":",
     "requiredFiles": []
   },
   "buildArtifacts": {
-    "buildCmd": "./build/build.sh"
+    "buildCmd": "./buih"
   },
   "livePreview": {
     "serveSetupCmd": ":"
