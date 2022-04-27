@@ -2,7 +2,7 @@
   "artifactStructure": {
     "assets": [
       {
-        "root": "asdf"
+        "root": "assets/"
       }
     ],
     "plugins": [
@@ -19,7 +19,7 @@
     ]
   },
   "dependencies": {
-    "installDepsCmd": ":",
+    "installDepsCmd": "",
     "requiredFiles": []
   },
   "buildArtifacts": {
