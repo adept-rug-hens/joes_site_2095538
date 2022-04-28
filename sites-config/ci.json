@@ -13,13 +13,13 @@
             "root": "src"
           }
         ],
-        "event": "ON_PAGE_GENERATE",
+        "event": "ON_PAGE_GENRATE",
         "functionName": "RenderPage"
       }
     ]
   },
   "dependencies": {
-    "installDepsCmd": "nkln",
+    "installDepsCmd": ":",
     "requiredFiles": []
   },
   "buildArtifacts": {
