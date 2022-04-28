@@ -10,11 +10,11 @@
         "pluginName": "pageRenderer",
         "sourceFiles": [
           {
-            "root": "src"
+            "root": "srcy"
           }
         ],
         "event": "ON_PAGE_GENERATE",
-        "functionName": "RendrPage"
+        "functionName": "RenderPage"
       }
     ]
   },
