@@ -1,6 +1,6 @@
 {
 	"__": {
-		"name": "Abot",
+		"name": "About",
 		"staticPage": {},
 		"templateType": "JS"
 	},
@@ -19,7 +19,7 @@
 		"uid": 5835500
 	},
 	"businessId": 0,
-	"key": "0:Abot:knowledgeGraph:0:sv",
+	"key": "0:About:knowledgeGraph:0:sv",
 	"locale": "sv",
 	"meta": {
 		"locale": "sv"

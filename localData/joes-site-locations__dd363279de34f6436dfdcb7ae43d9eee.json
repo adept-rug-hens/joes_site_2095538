@@ -1,7 +1,9 @@
 {
 	"__": {
-		"entityPageSet": {},
-		"name": "Locatios",
+		"entityPageSet": {
+			"bleh": "bleh"
+		},
+		"name": "Locations",
 		"streamId": "joes-site-locations",
 		"templateType": "JS"
 	},
@@ -29,7 +31,7 @@
 	},
 	"businessId": 0,
 	"id": "mystery_mans",
-	"key": "0:Locatios:knowledgeGraph:4331524:en",
+	"key": "0:Locations:knowledgeGraph:4331524:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {

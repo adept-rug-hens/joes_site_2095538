@@ -1,7 +1,9 @@
 {
 	"__": {
-		"entityPageSet": {},
-		"name": "Locatios",
+		"entityPageSet": {
+			"bleh": "bleh"
+		},
+		"name": "Locations",
 		"streamId": "joes-site-locations",
 		"templateType": "JS"
 	},
@@ -29,7 +31,7 @@
 	},
 	"businessId": 0,
 	"id": "8715676565878330707",
-	"key": "0:Locatios:knowledgeGraph:4331820:en",
+	"key": "0:Locations:knowledgeGraph:4331820:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
