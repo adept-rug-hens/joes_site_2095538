@@ -2,7 +2,7 @@
 	"__": {
 		"entityPageSet": {},
 		"name": "Locations",
-		"streamId": "joes-site-locations",
+		"streamId": "joes-site-locatons",
 		"templateType": "JS"
 	},
 	"_site": {
@@ -20,15 +20,16 @@
 		"uid": 5835500
 	},
 	"address": {
-		"city": "Faketown",
+		"city": "Mclean",
 		"countryCode": "US",
-		"line1": "160 Fake Street",
-		"postalCode": "11111",
+		"line1": "7900 Westpark dr",
+		"line2": "T200",
+		"postalCode": "22102",
 		"region": "VA"
 	},
 	"businessId": 0,
-	"id": "testing123",
-	"key": "0:Locations:knowledgeGraph:4341754:en",
+	"id": "3198156066598274224",
+	"key": "0:Locations:knowledgeGraph:4331538:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -38,7 +39,7 @@
 		"locale": "en",
 		"updateTimestamp": "2022-03-31T00:19:04Z"
 	},
-	"name": "New Big Ol Test Spot",
+	"name": "fresh location",
 	"siteId": 0,
-	"uid": 4341754
+	"uid": 4331538
 }

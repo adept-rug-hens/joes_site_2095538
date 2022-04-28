@@ -2,7 +2,7 @@
 	"__": {
 		"entityPageSet": {},
 		"name": "Locations",
-		"streamId": "joes-site-locations",
+		"streamId": "joes-site-locatons",
 		"templateType": "JS"
 	},
 	"_site": {
@@ -20,15 +20,15 @@
 		"uid": 5835500
 	},
 	"address": {
-		"city": "Philadelphia",
+		"city": "New York",
 		"countryCode": "US",
-		"line1": "3945 Chestnut Street",
-		"postalCode": "19104",
-		"region": "PA"
+		"line1": "1 Madison Aveeee",
+		"postalCode": "10010",
+		"region": "NY"
 	},
 	"businessId": 0,
-	"id": "1659753233392245064",
-	"key": "0:Locations:knowledgeGraph:4303160:en",
+	"id": "sugat-spa",
+	"key": "0:Locations:knowledgeGraph:4330652:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -38,7 +38,7 @@
 		"locale": "en",
 		"updateTimestamp": "2022-04-02T02:13:47Z"
 	},
-	"name": "Zootopia 32",
+	"name": "Sugat's Spa..",
 	"siteId": 0,
-	"uid": 4303160
+	"uid": 4330652
 }

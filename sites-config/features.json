@@ -17,7 +17,7 @@
         {
             "$id": "joes-site-locatons",
             "source": "knowledgeGraph",
-            "destination": "paes",
+            "destination": "pages",
             "fields": [
                 "id",
                 "uid",

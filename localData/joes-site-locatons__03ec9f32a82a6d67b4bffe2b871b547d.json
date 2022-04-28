@@ -2,7 +2,7 @@
 	"__": {
 		"entityPageSet": {},
 		"name": "Locations",
-		"streamId": "joes-site-locations",
+		"streamId": "joes-site-locatons",
 		"templateType": "JS"
 	},
 	"_site": {
@@ -20,16 +20,15 @@
 		"uid": 5835500
 	},
 	"address": {
-		"city": "Mclean",
+		"city": "Philadelphia",
 		"countryCode": "US",
-		"line1": "7900 Westpark dr",
-		"line2": "T200",
-		"postalCode": "22102",
-		"region": "VA"
+		"line1": "3945 Chestnut Street",
+		"postalCode": "19104",
+		"region": "PA"
 	},
 	"businessId": 0,
-	"id": "3198156066598274224",
-	"key": "0:Locations:knowledgeGraph:4331538:en",
+	"id": "1659753233392245064",
+	"key": "0:Locations:knowledgeGraph:4303160:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -37,9 +36,9 @@
 			"uid": 0
 		},
 		"locale": "en",
-		"updateTimestamp": "2022-03-31T00:19:04Z"
+		"updateTimestamp": "2022-04-02T02:13:47Z"
 	},
-	"name": "fresh location",
+	"name": "Zootopia 32",
 	"siteId": 0,
-	"uid": 4331538
+	"uid": 4303160
 }

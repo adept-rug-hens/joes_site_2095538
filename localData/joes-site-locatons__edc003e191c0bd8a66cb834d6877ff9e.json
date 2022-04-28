@@ -2,7 +2,7 @@
 	"__": {
 		"entityPageSet": {},
 		"name": "Locations",
-		"streamId": "joes-site-locations",
+		"streamId": "joes-site-locatons",
 		"templateType": "JS"
 	},
 	"_site": {
@@ -20,15 +20,16 @@
 		"uid": 5835500
 	},
 	"address": {
-		"city": "New York",
+		"city": "McLean",
 		"countryCode": "US",
-		"line1": "1 Madison Aveeee",
-		"postalCode": "10010",
-		"region": "NY"
+		"line1": "7900 Westpark Dr",
+		"line2": "Suite T200",
+		"postalCode": "22102",
+		"region": "VA"
 	},
 	"businessId": 0,
-	"id": "sugat-spa",
-	"key": "0:Locations:knowledgeGraph:4330652:en",
+	"id": "8715676565878330707",
+	"key": "0:Locations:knowledgeGraph:4331820:en",
 	"locale": "en",
 	"meta": {
 		"entityType": {
@@ -36,9 +37,9 @@
 			"uid": 0
 		},
 		"locale": "en",
-		"updateTimestamp": "2022-04-02T02:13:47Z"
+		"updateTimestamp": "2022-04-06T17:51:12Z"
 	},
-	"name": "Sugat's Spa..",
+	"name": "another test location 3",
 	"siteId": 0,
-	"uid": 4330652
+	"uid": 4331820
 }
