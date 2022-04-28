@@ -1,8 +1,6 @@
 {
 	"__": {
-		"entityPageSet": {
-			"bleh": "bleh"
-		},
+		"entityPageSet": {},
 		"name": "Locations",
 		"streamId": "joes-site-locations",
 		"templateType": "JS"

@@ -1,7 +1,9 @@
 {
 	"__": {
 		"name": "About",
-		"staticPage": {},
+		"staticPage": {
+			"bleh": "bleh"
+		},
 		"templateType": "JS"
 	},
 	"_site": {

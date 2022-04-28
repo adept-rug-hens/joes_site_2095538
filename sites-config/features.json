@@ -10,12 +10,12 @@
         {
             "name": "About",
             "templateType": "JS",
-            "staticPage": {"bleh":"bleh"}
+            "staticPage": {}
         }
     ],
     "streams": [
         {
-            "$id": "joes-site-locations",
+            "$id": "joes-site-loctions",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
