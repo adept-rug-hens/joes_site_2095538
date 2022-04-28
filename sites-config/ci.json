@@ -10,7 +10,7 @@
         "pluginName": "pageRenderer",
         "sourceFiles": [
           {
-            "root": "srcy"
+            "root": "src"
           }
         ],
         "event": "ON_PAGE_GENERATE",
