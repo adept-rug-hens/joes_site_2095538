@@ -3,7 +3,7 @@
   "filter": {
     "entityIds": ["8812729808173028417"]
   },
-  "source": "knowledgeraph",
+  "source": "knowledgeGraph",
   "fields": [
     "c_siteTitle",
     "c_siteDescription"
