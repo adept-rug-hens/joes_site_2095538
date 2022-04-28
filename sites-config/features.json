@@ -3,13 +3,13 @@
     "features": [
         {
             "name": "Locations",
-            "streamId": "joes-site-loctions",
+            "streamId": "joes-site-locations",
             "templateType": "JS",
             "entityPageSet": {}
         },
         {
             "name": "About",
-            "templateType": "JS",
+            "templateType": "js",
             "staticPage": {}
         }
     ],

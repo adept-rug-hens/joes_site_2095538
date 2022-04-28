@@ -1,0 +1,45 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "Locatios",
+		"streamId": "joes-site-locations",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_siteDescription": "Description for Joe's Site in English v8",
+		"c_siteTitle": "Joe's Site (Under Construction)",
+		"id": "8812729808173028417",
+		"meta": {
+			"entityType": {
+				"id": "ce_siteEntity",
+				"uid": 40047
+			},
+			"locale": "en",
+			"updateTimestamp": "2022-04-06T14:28:46Z"
+		},
+		"uid": 5835500
+	},
+	"address": {
+		"city": "Mclean",
+		"countryCode": "US",
+		"line1": "7900 Westpark dr",
+		"line2": "T200",
+		"postalCode": "22102",
+		"region": "VA"
+	},
+	"businessId": 0,
+	"id": "3198156066598274224",
+	"key": "0:Locatios:knowledgeGraph:4331538:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en",
+		"updateTimestamp": "2022-03-31T00:19:04Z"
+	},
+	"name": "fresh location",
+	"siteId": 0,
+	"uid": 4331538
+}

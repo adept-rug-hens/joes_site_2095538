@@ -1,0 +1,45 @@
+{
+	"__": {
+		"entityPageSet": {},
+		"name": "Locatios",
+		"streamId": "joes-site-locations",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_siteDescription": "Description for Joe's Site in English v8",
+		"c_siteTitle": "Joe's Site (Under Construction)",
+		"id": "8812729808173028417",
+		"meta": {
+			"entityType": {
+				"id": "ce_siteEntity",
+				"uid": 40047
+			},
+			"locale": "en",
+			"updateTimestamp": "2022-04-06T14:28:46Z"
+		},
+		"uid": 5835500
+	},
+	"address": {
+		"city": "McLean",
+		"countryCode": "US",
+		"line1": "7900 Westpark D",
+		"line2": "Suite T5012",
+		"postalCode": "22102",
+		"region": "VA"
+	},
+	"businessId": 0,
+	"id": "mystery_mans",
+	"key": "0:Locatios:knowledgeGraph:4331524:en",
+	"locale": "en",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en",
+		"updateTimestamp": "2022-04-12T16:55:03Z"
+	},
+	"name": "Chaka Demus's Mysteries 21",
+	"siteId": 0,
+	"uid": 4331524
+}
