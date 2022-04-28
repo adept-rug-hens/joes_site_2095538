@@ -5,12 +5,12 @@
             "name": "Locations",
             "streamId": "joes-site-locations",
             "templateType": "JS",
-            "entityPageSet": {"bleh":"bleh"}
+            "entityPageSet": {}
         },
         {
             "name": "About",
             "templateType": "JS",
-            "staticPage": {}
+            "staticPage": {"bleh":"bleh"}
         }
     ],
     "streams": [
