@@ -16,8 +16,8 @@
     "streams": [
         {
             "$id": "joes-site-locations",
-            "source": "knowledgeraph",
-            "destination": "pages",
+            "source": "knowledgeGraph",
+            "destination": "paes",
             "fields": [
                 "id",
                 "uid",
