@@ -4,6 +4,18 @@
       {
         "root": "assets/"
       }
+    ],
+    "plugins": [
+      {
+        "pluginName": "pageRenderer",
+        "sourceFiles": [
+          {
+            "root": "src"
+          }
+        ],
+        "event": "ON_URL_CHANGE",
+        "functionName": "RenderPage"
+      }
     ]
   },
   "dependencies": {
