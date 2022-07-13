@@ -4,18 +4,6 @@
       {
         "root": "assets/"
       }
-    ],
-    "plugins": [
-      {
-        "pluginName": "pageRenderer",
-        "sourceFiles": [
-          {
-            "root": "src"
-          }
-        ],
-        "event": "ON_PAGE_GENERATE",
-        "functionName": "RenderPage"
-      }
     ]
   },
   "dependencies": {
