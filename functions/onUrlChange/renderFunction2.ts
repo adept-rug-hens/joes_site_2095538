@@ -32,7 +32,7 @@ export function GetLocationsPath(doc: StreamOutput) {
   return "location-" + doc.locale + "-" + doc.id;
 };
 
-export async function renderFunction(doc: Data) {
+export async function renderFunction2(doc: Data) {
     let path;
     let template;
     console.log(doc);
