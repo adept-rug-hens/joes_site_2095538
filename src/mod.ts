@@ -9,7 +9,9 @@ export async function RenderPage(doc: Data) {
   let reactString;
   let path;
   let template;
-  console.log(doc);
+  
+  throw "Intentional error"
+
   if (doc.feature === "About") {
     reactString = ReactDOMServer.renderToString(StaticWrap(doc.streamOutput));
     path = GetAboutPath(doc.streamOutput);
