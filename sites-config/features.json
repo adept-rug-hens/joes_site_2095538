@@ -8,15 +8,6 @@
             "entityPageSet": {}
         },
         {
-            "name": "Locations",
-            "streamId": "joes-site-locatons",
-            "alternateLanguageFields": [
-                "name"
-            ],
-            "templateType": "JS",
-            "entityPageSet": {}
-        },
-        {
             "name": "About",
             "templateType": "JS",
             "staticPage": {}
