@@ -1,0 +1,32 @@
+{
+  "artifactStructure": {
+    "assets": [
+      {
+        "root": "assets/"
+      }
+    ],
+    "plugins": [
+      {
+        "pluginName": "pageRenderer",
+        "sourceFiles": [
+          {
+            "root": "src"
+          }
+        ],
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "RenderPage"
+      }
+    ]
+  },
+  "dependencies": {
+    "installDepsCmd": ":",
+    "requiredFiles": []
+  },
+  "buildArtifacts": {
+    "buildCmd": "./build/build.sh"
+  },
+  "livePreview": {
+    "serveSetupCmd": ":",
+    "serveCmd": ":"
+  }
+}
