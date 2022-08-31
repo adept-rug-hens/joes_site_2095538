@@ -19,7 +19,7 @@
     ]
   },
   "dependencies": {
-    "installDepsCmd": ":",
+    "installDepsCmd": "exit 123",
     "requiredFiles": []
   },
   "buildArtifacts": {
