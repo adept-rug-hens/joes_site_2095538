@@ -6,5 +6,3 @@ touch sites-config/redirects.csv
 echo "/home.html,/index.html" >> sites-config/redirects.csv
 ls -al sites-config
 cat sites-config/redirects.csv
-
-exit 123
