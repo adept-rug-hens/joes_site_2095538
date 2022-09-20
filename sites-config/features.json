@@ -21,7 +21,6 @@
             "fields": [
                 "id",
                 "uid",
-                "meta",
                 "name",
                 "address"
             ],
