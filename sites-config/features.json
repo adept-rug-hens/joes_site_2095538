@@ -3,7 +3,7 @@
     "features": [
         {
             "name": "Locations",
-            "streamId": "joes-site-locations-3new",
+            "streamId": "joes-site-locations-3new-v2",
             "templateType": "JS",
             "entityPageSet": {}
         },
@@ -15,7 +15,7 @@
     ],
     "streams": [
         {
-            "$id": "joes-site-locations-3new",
+            "$id": "joes-site-locations-3new-v2",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
