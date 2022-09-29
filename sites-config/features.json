@@ -22,7 +22,8 @@
                 "id",
                 "uid",
                 "name",
-                "address"
+                "address",
+                "description"
             ],
             "filter": {
                 "entityTypes": [
