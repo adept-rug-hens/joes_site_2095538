@@ -23,7 +23,8 @@
                 "uid",
                 "name",
                 "address",
-                "description"
+                "description",
+                "photoGallery"
             ],
             "filter": {
                 "entityTypes": [
