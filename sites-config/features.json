@@ -1,4 +1,5 @@
 {
+    "templateVersion": 8,
     "locales": ["en", "sv"],
     "features": [
         {
