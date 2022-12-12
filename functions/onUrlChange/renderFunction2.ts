@@ -1,3 +1,3 @@
 export async function main() {
-    console.log("foo");
-  }
+    throw "Intentional ON_URL_CHANGE error"
+}
