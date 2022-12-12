@@ -10,8 +10,6 @@ export async function RenderPage(doc: Data) {
   let path;
   let template;
 
-  throw "Intentional Error"
-
   console.log(doc);
   if (doc.feature === "About") {
     reactString = ReactDOMServer.renderToString(StaticWrap(doc.streamOutput));
@@ -48,4 +46,8 @@ export async function RenderPage(doc: Data) {
   }
   const result: Result = { content: template, path: path, redirects: [] };
   return result;
+}
+
+export async function OnUrlChangeError() {
+  throw "Intentional Error"
 }

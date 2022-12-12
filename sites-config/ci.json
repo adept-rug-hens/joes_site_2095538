@@ -13,8 +13,18 @@
             "root": "src"
           }
         ],
-        "event": "ON_URL_CHANGE",
+        "event": "ON_PAGE_GENERATE",
         "functionName": "RenderPage"
+      },
+      {
+        "pluginName": "urlChangeError",
+        "sourceFiles": [
+          {
+            "root": "src"
+          }
+        ],
+        "event": "ON_URL_CHANGE",
+        "functionName": "OnUrlChangeError"
       }
     ]
   },
