@@ -1,3 +1,3 @@
 export async function main() {
-    console.log("foo");
+    console.log("fooeyy");
   }
