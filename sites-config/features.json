@@ -23,7 +23,8 @@
                 "uid",
                 "name",
                 "address",
-                "description"
+                "description",
+                "c_linkedEntity.description"
             ],
             "filter": {
                 "entityTypes": [
