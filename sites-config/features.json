@@ -8,6 +8,12 @@
             "entityPageSet": {}
         },
         {
+            "name": "Events",
+            "streamId": "thomas-test-events",
+            "templateType": "JS",
+            "entityPageSet": {}
+        },
+        {
             "name": "About",
             "templateType": "JS",
             "staticPage": {}
@@ -29,6 +35,21 @@
             "filter": {
                 "entityTypes": [
                    "location"
+                ]
+            }
+        },
+        {
+            "$id": "thomas-test-events",
+            "source": "knowledgeGraph",
+            "destination": "pages",
+            "fields": [
+                "id",
+                "uid",
+                "name"
+            ],
+            "filter": {
+                "entityTypes": [
+                   "event"
                 ]
             }
         }
