@@ -26,7 +26,7 @@
     "buildCmd": "printenv && ./build/build.sh"
   },
   "livePreview": {
-    "serveSetupCmd": ":",
+    "serveSetupCmd": "printenv",
     "serveCmd": ":"
   }
 }
