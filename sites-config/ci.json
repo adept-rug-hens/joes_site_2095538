@@ -23,7 +23,7 @@
     "requiredFiles": []
   },
   "buildArtifacts": {
-    "buildCmd": "echo \"foo\" && printenv YEXT_CBD_BRANCH && ./build/build.sh"
+    "buildCmd": "./build/build.sh"
   },
   "livePreview": {
     "serveSetupCmd": "echo $YEXT_CBD_BRANCH",
