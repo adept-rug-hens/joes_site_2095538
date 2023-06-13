@@ -14,7 +14,7 @@ class Address extends React.Component<MyProps, {}> {
     };
     return (
       <div style={style} className="address-block">
-        Address: {line1}, {line2}, {city}, {region} {postalCode}.
+        Address: {line1}, {line2}, {city}, {region} {postalCode} {nonexistent}.
       </div>
     );
   }
