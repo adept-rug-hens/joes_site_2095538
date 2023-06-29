@@ -22,7 +22,7 @@ body{
 </head>
 <body>
 <h1>Dynamic Routing Demo! 🐈</h1>
-<p>You're variadic argument is ${argumentJson["urlArgs"]["something"]}</p>
+<p>You're variadic argument :) is ${argumentJson["urlArgs"]["something"]}</p>
 </body>
 </html>
 		`,
