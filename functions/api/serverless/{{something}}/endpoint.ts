@@ -32,4 +32,3 @@ body{
 			"X-Yext-Test": "Example header",
 		},
 	  };
-}}
