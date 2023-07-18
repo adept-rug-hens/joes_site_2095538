@@ -23,10 +23,10 @@
     "requiredFiles": []
   },
   "buildArtifacts": {
-    "buildCmd": "./build/build.sh"
+    "buildCmd": "echo BUILDCOMMAND"
   },
   "livePreview": {
-    "serveSetupCmd": ":",
-    "serveCmd": ":"
+    "serveSetupCmd": "echo SERVESETUP",
+    "serveCmd": "echo SERVECMD"
   }
 }
