@@ -10,7 +10,12 @@
         {
             "name": "About",
             "templateType": "JS",
-            "staticPage": {}
+            "staticPage": {
+              "onPageGenerate": {
+                "pluginName": "pageRenderer",
+                "functionName": "RenderPage"
+              }
+            }
         }
     ],
     "streams": [
