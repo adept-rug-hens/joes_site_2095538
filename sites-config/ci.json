@@ -15,6 +15,16 @@
         ],
         "event": "ON_PAGE_GENERATE",
         "functionName": "RenderPage"
+      },
+      {
+        "pluginName": "pageRenderer2",
+        "sourceFiles": [
+          {
+            "root": "src"
+          }
+        ],
+        "event": "ON_PAGE_GENERATE",
+        "functionName": "RenderPage2"
       }
     ]
   },
