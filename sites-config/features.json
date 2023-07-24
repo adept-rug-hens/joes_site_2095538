@@ -5,7 +5,12 @@
             "name": "Locations",
             "streamId": "joes-site-locations-v4",
             "templateType": "JS",
-            "entityPageSet": {}
+            "entityPageSet": {
+              "onPageGenerate": {
+                "pluginName": "pageRenderer",
+                "functionName": "RenderPage"
+              }
+            }
         },
         {
             "name": "About",
