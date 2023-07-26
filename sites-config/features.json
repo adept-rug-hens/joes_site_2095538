@@ -3,13 +3,13 @@
     "features": [
         {
             "name": "Locations",
-            "streamId": "thomas-test-locations",
+            "streamId": "thomas-test-locations-2",
             "templateType": "JS",
             "entityPageSet": {}
         },
         {
             "name": "Events",
-            "streamId": "thomas-test-events",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
             "entityPageSet": {}
         },
@@ -21,7 +21,7 @@
     ],
     "streams": [
         {
-            "$id": "thomas-test-locations",
+            "$id": "thomas-test-locations-2",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
@@ -39,7 +39,7 @@
             }
         },
         {
-            "$id": "thomas-test-events",
+            "$id": "thomas-test-events-2",
             "source": "knowledgeGraph",
             "destination": "pages",
             "fields": [
