@@ -33,8 +33,8 @@
                 "photoGallery"
             ],
             "filter": {
-                "entityTypes": [
-                   "location"
+                "savedFilters": [
+                   "311522300"
                 ]
             }
         },
