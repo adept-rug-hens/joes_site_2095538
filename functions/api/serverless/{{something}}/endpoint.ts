@@ -31,7 +31,4 @@ body{
 			// "Cache-control": "private",
 			"X-Yext-Test": "Example header",
 		},
-	  };
-
-
-}}
+	  }
