@@ -43,6 +43,6 @@ export async function RenderPage(doc: Data) {
 </body>
 </html>` 
   }
-  const result: Result = { content: template };
+  const result: Result = { content: template, path: path, redirects: [`other-${path}`]  };
   return result;
 }
