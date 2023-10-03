@@ -1,0 +1,45 @@
+{
+  "features": [
+    {
+      "name": "Locations",
+      "streamId": "joes-site-locations-v4",
+      "templateType": "JS",
+      "entityPageSet": {
+        "onPageGenerate": {
+          "pluginName": "pageRenderer",
+          "functionName": "RenderPage"
+        }
+      }
+    },
+    {
+      "name": "About",
+      "templateType": "JS",
+      "staticPage": {
+        "onPageGenerate": {
+          "pluginName": "pageRenderer",
+          "functionName": "RenderPage"
+        }
+      }
+    }
+  ],
+  "streams": [
+    {
+      "$id": "joes-site-locations-v4",
+      "source": "knowledgeGraph",
+      "destination": "pages",
+      "fields": [
+        "id",
+        "uid",
+        "name",
+        "address",
+        "description",
+        "c_linkedEntity.description"
+      ],
+      "filter": {
+        "entityTypes": [
+          "location"
+        ]
+      }
+    }
+  ]
+}
