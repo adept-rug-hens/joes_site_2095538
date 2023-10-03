@@ -1,0 +1,31 @@
+buildConfiguration:
+  buildCommand: ./build/build.sh
+  installDependenciesStep:
+    command: :
+
+livePreviewConfiguration:
+  setupCommand: echo $YEXT_CBD_BRANCH
+  serveCommand: :
+
+locales:
+  - en
+  - sv
+
+siteStream:
+  id: joes-site-v5
+  entityId: 8812729808173028417
+  fields:
+    - c_siteTitle
+    - c_siteDescription
+
+responseHeaders:
+  -
+    pathPattern: .*
+    headerKey: joe-custom-header
+    headerValues:
+      - joe-custom-value
+
+staticRedirects:
+  -
+    from: /home.html
+    to: /index.html
