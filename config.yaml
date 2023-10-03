@@ -27,5 +27,5 @@ responseHeaders:
 
 staticRedirects:
   -
-    from: /home.html
+    from: /config-home.html
     to: /index.html
