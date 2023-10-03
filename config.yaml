@@ -1,11 +1,11 @@
 buildConfiguration:
   buildCommand: ./build/build.sh
   installDependenciesStep:
-    command: :
+    command: ":"
 
 livePreviewConfiguration:
   setupCommand: echo $YEXT_CBD_BRANCH
-  serveCommand: :
+  serveCommand: ":"
 
 locales:
   - en
