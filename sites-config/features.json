@@ -38,7 +38,7 @@
             ],
             "filter": {
                 "entityTypes": [
-                   "location"
+                   "ce_ceramicBowl"
                 ]
             }
         }
