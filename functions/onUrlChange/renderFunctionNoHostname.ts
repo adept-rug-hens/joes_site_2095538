@@ -1,3 +1,3 @@
 export async function main() {
-    console.log("fooey");
+    throw new Error('ohhh noooo julie error');
   }
