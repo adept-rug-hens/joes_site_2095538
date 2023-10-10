@@ -44,6 +44,5 @@ export async function RenderPage(doc: Data) {
 </html>` 
   }
   const result: Result = { content: template, path: path, redirects: [`other-${path}`]  };
-  throw new Error('ohhh noooo julie error');
   return result;
 }
