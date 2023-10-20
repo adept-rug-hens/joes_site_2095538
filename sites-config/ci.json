@@ -27,6 +27,6 @@
   },
   "livePreview": {
     "serveSetupCmd": ":",
-    "serveCmd": ":"
+    "serveCmd": "npx serve -p 8080"
   }
 }
