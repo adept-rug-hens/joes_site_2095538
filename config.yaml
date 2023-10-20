@@ -6,6 +6,7 @@ buildConfiguration:
 livePreviewConfiguration:
   setupCommand: npm install -g serve@13.0.4 && echo $YEXT_CBD_BRANCH
   serveCommand: "npx serve -p 8080"
+  previewReadyRegex: badbadbad
 
 locales:
   - en
