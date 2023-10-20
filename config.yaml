@@ -5,7 +5,7 @@ buildConfiguration:
 
 livePreviewConfiguration:
   setupCommand: echo $YEXT_CBD_BRANCH
-  serveCommand: ":"
+  serveCommand: "npx serve -p 8080"
 
 locales:
   - en
