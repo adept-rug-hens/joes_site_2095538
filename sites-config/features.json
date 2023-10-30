@@ -35,7 +35,7 @@
             ],
             "filter": {
                 "entityTypes": [
-                   "cat"
+                   "ce_ceramicBowl"
                 ]
             }
         }
