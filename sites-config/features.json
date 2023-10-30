@@ -31,14 +31,11 @@
             "fields": [
                 "id",
                 "uid",
-                "name",
-                "address",
-                "description",
-                "c_linkedEntity.description"
+                "name"
             ],
             "filter": {
                 "entityTypes": [
-                   "location"
+                   "cat"
                 ]
             }
         }
