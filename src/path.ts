@@ -2,7 +2,7 @@ import { StreamOutput } from "./data.ts";
 
 export function GetLocationsPath(doc: StreamOutput) {
   console.log(doc.id);
-  return "location-" + "test" + "-" + "2";
+  return "location-" + doc.locale + "-" + doc.id;
 };
 
 export function GetAboutPath(doc: StreamOutput) {
