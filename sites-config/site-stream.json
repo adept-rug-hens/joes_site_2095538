@@ -1,7 +1,7 @@
 {
   "$id": "joes-site-v5",
   "filter": {
-    "entityIds": ["${ENTITY_IDS_ENV_VAR}"]
+    "entityIds": ["ENTITY_IDS_ENV_VAR"]
   },
   "source": "knowledgeGraph",
   "fields": [
