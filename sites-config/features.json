@@ -12,7 +12,7 @@
             "name": "About",
             "templateType": "JS",
             "staticPage": {
-                "locales": ["en", "es"]
+                "locales": ["en"]
             }
         }
     ],
