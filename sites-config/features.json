@@ -11,7 +11,9 @@
         {
             "name": "About",
             "templateType": "JS",
-            "staticPage": {}
+            "staticPage": {
+                "locales": ["en", "es"]
+            }
         }
     ],
     "streams": [
