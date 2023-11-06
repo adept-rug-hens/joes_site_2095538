@@ -34,7 +34,7 @@
                 "name",
                 "address",
                 "description",
-                "c_linkedEntity.description",
+                "c_linkedEntity.description"
             ],
             "filter": {
                 "entityTypes": [
