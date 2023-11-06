@@ -35,7 +35,8 @@
                 "address",
                 "description",
                 "c_linkedEntity.description",
-                "c_videoGallery"
+                "c_videoGallery",
+                "c_pagesURL"
             ],
             "filter": {
                 "entityTypes": [
