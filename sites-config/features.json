@@ -36,7 +36,9 @@
                 "description",
                 "c_linkedEntity.description",
                 "c_videoGallery",
-                "c_customHours"
+                "c_pagesURL",
+                "c_customHours",
+                "c_fancyBowlName"
             ],
             "filter": {
                 "entityTypes": [
