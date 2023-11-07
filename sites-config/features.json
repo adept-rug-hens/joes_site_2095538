@@ -35,7 +35,6 @@
                 "address",
                 "description",
                 "c_linkedEntity.description",
-                // "c_videoGallery",
                 "c_pagesURL",
                 "c_customHours",
                 "c_fancyBowlName"
