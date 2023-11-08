@@ -34,7 +34,7 @@
                 "name",
                 "address",
                 "description",
-                "c_customHours",
+                "c_pagesURL",
                 "c_fancyBowlName"
             ],
             "filter": {
