@@ -34,9 +34,9 @@
                 "name",
                 "address",
                 "description",
-                "c_linkedEntity.description",
                 "c_videoGallery",
                 "c_customHours",
+                "c_pagesURL",
                 "c_fancyBowlName"
             ],
             "filter": {
