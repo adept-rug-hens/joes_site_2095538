@@ -6,7 +6,9 @@
             "name": "Locations",
             "streamId": "joes-site-locations-v4",
             "templateType": "JS",
-            "entityPageSet": {}
+            "entityPageSet": {
+                "pageUrlField": "landingPageUrl"
+            }
         },
         {
             "name": "About",
