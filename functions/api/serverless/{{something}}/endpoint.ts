@@ -3,7 +3,7 @@ export async function main(argumentJson) {
 	if (argumentJson["urlArgs"]["something"]) {
 		console.log(argumentJson["urlArgs"]["something"])
 	} 
-
+        console.log("ArgumentJson: "+argumentJson);
 	return {
 		"body": `		
 <!DOCTYPE html>
