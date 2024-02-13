@@ -36,7 +36,7 @@
     "buildCmd": "printenv && ./build/build.sh"
   },
   "livePreview": {
-    "serveSetupCmd": "echo SERVESETUP",
+    "serveSetupCmd": "echo $YEXT_CBD_BRANCH",
     "serveCmd": "npx serve -p 8080"
   }
 }
