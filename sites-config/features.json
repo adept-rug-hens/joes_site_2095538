@@ -35,6 +35,8 @@
                 "address",
                 "description",
                 "c_pagesURL",
+                "c_videoGallery",
+                "c_constrainedGallery",
                 "c_fancyBowlName"
             ],
             "filter": {
