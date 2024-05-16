@@ -10,7 +10,13 @@
                 "pluginName": "pageRenderer",
                 "functionName": "RenderPage"
               }
-            }
+            },
+             "additionalProperties": {
+                "foo": "bar",
+                "nested": {
+                    "bloop": "bop"
+                }
+              },
         },
         {
             "name": "About",
