@@ -4,19 +4,19 @@
         {
             "name": "Locations",
             "streamId": "joes-site-locations-v4",
+            "additionalProperties": {
+                "foo": "bar",
+                "nested": {
+                    "bloop": "bop"
+                }
+            },
             "templateType": "JS",
             "entityPageSet": {
               "onPageGenerate": {
                 "pluginName": "pageRenderer",
                 "functionName": "RenderPage"
               }
-            },
-             "additionalProperties": {
-                "foo": "bar",
-                "nested": {
-                    "bloop": "bop"
-                }
-              },
+            }
         },
         {
             "name": "About",
