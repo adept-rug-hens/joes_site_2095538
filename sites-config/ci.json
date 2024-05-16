@@ -27,7 +27,7 @@
         "event": "PAGE_PERFORMANCE_TEST",
         "functionName": "RenderPage"
       },
-    ]
+    ],
   },
   "dependencies": {
     "installDepsCmd": ":",
