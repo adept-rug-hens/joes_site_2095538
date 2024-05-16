@@ -4,6 +4,12 @@
         {
             "name": "Locations",
             "streamId": "thomas-test-locations-2",
+            "additionalProperties": {
+                "foo": "bar",
+                "nested": {
+                    "bloop": "bop"
+                }
+            },
             "templateType": "JS",
             "entityPageSet": {}
         },
