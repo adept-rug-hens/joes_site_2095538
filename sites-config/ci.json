@@ -17,7 +17,7 @@
         "functionName": "RenderPage"
       },
       {
-        "pluginName": "pageRenderer",
+        "pluginName": "pagePerformanceTest",
         "sourceFiles": [
           {
             "root": "src",
@@ -25,7 +25,7 @@
           }
         ],
         "event": "PAGE_PERFORMANCE_TEST",
-        "functionName": "RenderPage"
+        "functionName": "TestPlugin"
       }
     ]
   },
