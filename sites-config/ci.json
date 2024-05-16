@@ -15,7 +15,18 @@
         ],
         "event": "ON_PAGE_GENERATE",
         "functionName": "RenderPage"
-      }
+      },
+      {
+        "pluginName": "pageRenderer",
+        "sourceFiles": [
+          {
+            "root": "src",
+            "pattern": "pluginTest.ts"
+          }
+        ],
+        "event": "PAGE_PERFORMANCE_TEST",
+        "functionName": "RenderPage"
+      },
     ]
   },
   "dependencies": {
