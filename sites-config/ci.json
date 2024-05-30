@@ -25,6 +25,17 @@
         ],
         "event": "ON_PAGE_GENERATE",
         "functionName": "RenderPage2"
+      },
+      {
+        "pluginName": "pagePerformanceTest",
+        "sourceFiles": [
+          {
+            "root": "src",
+            "pattern": "pluginTest.ts"
+          }
+        ],
+        "event": "PAGE_PERFORMANCE_TEST",
+        "functionName": "TestPlugin"
       }
     ]
   },
