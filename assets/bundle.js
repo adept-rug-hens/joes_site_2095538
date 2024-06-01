@@ -24466,7 +24466,7 @@ class App extends exports1.Component {
         const nameStyle = {
             padding: "10px"
         };
-        const { id , name , address , _site  } = this.props.doc || {};
+        const { id , name , address , _site, description  } = this.props.doc || {};
         return exports1.createElement("div", {
             className: "app"
         }, exports1.createElement("div", {
@@ -24479,6 +24479,9 @@ class App extends exports1.Component {
             style: nameStyle,
             className: "name"
         }, "Site Description: ", _site.c_siteDescription), exports1.createElement("div", {
+            style: nameStyle,
+            className: "name"
+        }, "Descriptionnnn: ", description), exports1.createElement("div", {
             style: nameStyle,
             className: "name"
         }, "Business Name: ", name), exports1.createElement("div", {
