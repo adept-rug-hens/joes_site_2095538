@@ -38,7 +38,7 @@ class App extends React.Component<MyProps, MyState> {
       padding: "10px",
     };
 
-    const { id, name, address, _site } = this.props.doc || {};
+    const { id, name, address, _site, description } = this.props.doc || {};
     return (
       <div className="app">
         <div style={titleStyle} className="title">
@@ -48,6 +48,7 @@ class App extends React.Component<MyProps, MyState> {
           Click to demo hydration: {this.state.count}
         </button>
         <div style={nameStyle} className="name">Site Description: {_site.c_siteDescription}</div>
+        <div style={nameStyle} className="name">Description: {description}</div>
         <div style={nameStyle} className="name">Business Name: {name}</div>
         <div style={nameStyle} className="id">Entity Id: {id}</div>
         <Address address={address}/>
