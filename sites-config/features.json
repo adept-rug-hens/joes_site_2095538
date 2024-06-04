@@ -40,10 +40,6 @@
                 "name",
                 "address",
                 "description",
-                "c_pagesURL",
-                "c_videoGallery",
-                "c_constrainedGallery",
-                "c_constrainedPhotoList",
                 "c_fancyBowlName"
             ],
             "filter": {
