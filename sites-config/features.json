@@ -44,6 +44,7 @@
             ],
             "filter": {
                 "entityTypes": [
+                   "c_videoGallery",
                    "ce_ceramicBowl"
                 ]
             }
