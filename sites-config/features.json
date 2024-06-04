@@ -41,8 +41,7 @@
                 "address",
                 "description",
                 "c_fancyBowlName",
-                "c_videoGallery",
-
+                "c_videoGallery"
             ],
             "filter": {
                 "entityTypes": [
