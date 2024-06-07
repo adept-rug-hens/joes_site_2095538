@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "lib": [ "dom", "deno.ns" ]
-  },
-  "include": [
-    "./typings-custom/**/*.ts"
-  ]
+    "lib": [ "dom", "deno.ns" ],
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  }
 }
