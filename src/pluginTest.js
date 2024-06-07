@@ -1,5 +1,5 @@
-import lighthouse from './lighthouse';
-import * as chromeLauncher from './chrome-launcher';
+import lighthouse from '/lighthouse';
+import * as chromeLauncher from '/chrome-launcher';
 
 export async function TestPlugin() {
   const chrome = await chromeLauncher.launch({chromeFlags: ['--headless']});
