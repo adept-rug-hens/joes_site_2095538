@@ -1,4 +1,4 @@
-import lighthouse from 'lighthouse';
+import lighthouse from 'npm:lighthouse';
 import * as chromeLauncher from 'npm:chrome-launcher';
 
 export async function TestPlugin() {
