@@ -21,7 +21,7 @@
         "sourceFiles": [
           {
             "root": "src",
-            "pattern": "pluginTest.ts"
+            "pattern": "pluginTest.js"
           }
         ],
         "event": "PAGE_PERFORMANCE_TEST",
