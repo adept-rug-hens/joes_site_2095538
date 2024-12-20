@@ -23,7 +23,7 @@
             "name": "About",
             "templateType": "JS",
             "staticPage": {}
-        },
+        }
     ],
     "streams": [
         {
@@ -51,8 +51,7 @@
             "fields": [
                 "id",
                 "uid",
-                "name",
-                "description"
+                "name"
             ],
             "filter": {
                 "entityTypes": [
