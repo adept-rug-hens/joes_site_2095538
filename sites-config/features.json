@@ -26,48 +26,57 @@
         },
         {
             "name": "About2",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About3",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About4",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About5",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About6",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About7",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About8",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About9",
+           "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         },
         {
             "name": "About10",
+            "streamId": "thomas-test-events-2",
             "templateType": "JS",
-            "staticPage": {}
+            "entityPageSet": {}
         }
     ],
     "streams": [
