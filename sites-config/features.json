@@ -23,6 +23,51 @@
             "name": "About",
             "templateType": "JS",
             "staticPage": {}
+        },
+        {
+            "name": "About2",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About3",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About4",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About5",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About6",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About7",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About8",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About9",
+            "templateType": "JS",
+            "staticPage": {}
+        },
+        {
+            "name": "About10",
+            "templateType": "JS",
+            "staticPage": {}
         }
     ],
     "streams": [
