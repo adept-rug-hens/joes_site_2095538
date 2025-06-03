@@ -10,6 +10,8 @@ export async function RenderPage(doc: Data) {
   let path;
   let template;
   console.log(doc);
+  await new Promise(f => setTimeout(f, 1000));
+
   if (doc.feature === "About") {
     reactString = ReactDOMServer.renderToString(StaticWrap(doc.streamOutput));
     path = GetAboutPath(doc.streamOutput);
